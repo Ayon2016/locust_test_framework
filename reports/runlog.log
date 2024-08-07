@@ -1,0 +1,2381 @@
+[2024-08-06 17:06:23,041] C02G869CMD6M/INFO/locust.main: Run time limit set to 30 seconds
+[2024-08-06 17:06:23,042] C02G869CMD6M/INFO/locust.main: Starting Locust 2.31.2
+[2024-08-06 17:06:23,044] C02G869CMD6M/INFO/locust.runners: Ramping to 10 users at a rate of 2.00 per second
+[2024-08-06 17:06:27,057] C02G869CMD6M/INFO/locust.runners: All users spawned: {"MyTestRunner": 10} (10 total users)
+[2024-08-06 17:06:52,656] C02G869CMD6M/INFO/locust.main: --run-time limit reached, shutting down
+[2024-08-06 17:06:52,845] C02G869CMD6M/INFO/locust.main: writing html report to file: ./reports/testreport
+[2024-08-06 17:06:52,849] C02G869CMD6M/INFO/locust.main: Shutting down (exit code 0)
+[2024-08-06 17:07:38,161] C02G869CMD6M/INFO/locust.main: Run time limit set to 30 seconds
+[2024-08-06 17:07:38,161] C02G869CMD6M/INFO/locust.main: Starting Locust 2.31.2
+[2024-08-06 17:07:38,163] C02G869CMD6M/INFO/locust.runners: Ramping to 10 users at a rate of 2.00 per second
+[2024-08-06 17:07:42,177] C02G869CMD6M/INFO/locust.runners: All users spawned: {"MyTestRunner": 10} (10 total users)
+[2024-08-06 17:08:07,771] C02G869CMD6M/INFO/locust.main: --run-time limit reached, shutting down
+[2024-08-06 17:08:07,940] C02G869CMD6M/INFO/locust.main: writing html report to file: ./reports/testreport.html
+[2024-08-06 17:08:07,945] C02G869CMD6M/INFO/locust.main: Shutting down (exit code 0)
+[2024-08-06 17:25:33,555] C02G869CMD6M/INFO/locust.main: Run time limit set to 30 seconds
+[2024-08-06 17:25:33,555] C02G869CMD6M/INFO/locust.main: Starting Locust 2.31.2
+[2024-08-06 17:25:33,557] C02G869CMD6M/INFO/locust.runners: Ramping to 10 users at a rate of 2.00 per second
+[2024-08-06 17:25:33,618] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:33,619] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:34,599] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:34,601] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:35,601] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:35,603] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:36,608] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:36,609] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:37,569] C02G869CMD6M/INFO/locust.runners: All users spawned: {"MyTestRunner": 10} (10 total users)
+[2024-08-06 17:25:37,607] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:37,608] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:38,633] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:39,136] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:39,512] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:39,614] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:40,443] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:42,086] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:42,310] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:42,315] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:43,108] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:43,763] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:43,963] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:44,654] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:46,078] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:46,161] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:46,425] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:46,577] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:48,435] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:48,649] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:49,070] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:49,261] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:50,588] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:51,356] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:51,592] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:53,402] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:54,432] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:54,772] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:54,818] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:55,112] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:55,435] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:55,670] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:55,851] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:56,809] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:58,192] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:59,270] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:25:59,703] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:26:01,120] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:26:01,338] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:26:01,666] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:26:01,878] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:26:02,446] C02G869CMD6M/ERROR/locust.user.task: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 446, in _missing_catch_response_True
+    raise LocustError(
+locust.exception.LocustError: If you want to change the state of the request using .success() or .failure(), you must pass catch_response=True. See http://docs.locust.io/en/stable/writing-a-locustfile.html#validating-responses
+
+[2024-08-06 17:26:03,133] C02G869CMD6M/INFO/locust.main: --run-time limit reached, shutting down
+[2024-08-06 17:26:03,338] C02G869CMD6M/INFO/locust.main: writing html report to file: ./reports/testreport.html
+[2024-08-06 17:26:03,342] C02G869CMD6M/INFO/locust.main: Shutting down (exit code 1)
+[2024-08-06 17:26:44,069] C02G869CMD6M/INFO/locust.main: Run time limit set to 30 seconds
+[2024-08-06 17:26:44,069] C02G869CMD6M/INFO/locust.main: Starting Locust 2.31.2
+[2024-08-06 17:26:44,071] C02G869CMD6M/INFO/locust.runners: Ramping to 10 users at a rate of 2.00 per second
+[2024-08-06 17:26:44,120] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:44,121] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:45,116] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:45,117] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:46,113] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:46,116] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:47,114] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:47,117] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:47,706] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:48,082] C02G869CMD6M/INFO/locust.runners: All users spawned: {"MyTestRunner": 10} (10 total users)
+[2024-08-06 17:26:48,115] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:48,122] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:48,701] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:51,252] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:51,275] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:51,285] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:52,156] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:52,777] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:53,039] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:53,059] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:53,790] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:53,840] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:54,871] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:55,887] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:56,000] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:56,676] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:57,311] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:57,931] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:58,398] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:59,118] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:26:59,400] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:00,578] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:00,945] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:01,417] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:02,323] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:03,194] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:04,021] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:04,572] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:04,800] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:05,058] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:05,139] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:06,834] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:07,455] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:07,597] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:07,885] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:08,420] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:09,120] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:09,990] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:10,128] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:10,438] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:12,318] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:12,454] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:13,702] C02G869CMD6M/INFO/locust.main: --run-time limit reached, shutting down
+[2024-08-06 17:27:13,789] C02G869CMD6M/ERROR/locust.user.task: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 27, in get_users
+    res.success()
+  File "/usr/local/lib/python3.11/site-packages/locust/clients.py", line 407, in success
+    raise LocustError(
+locust.exception.LocustError: Tried to set status on a request that has not yet been made. Make sure you use a with-block, like this:
+
+with self.client.request(..., catch_response=True) as response:
+    response.success()
+
+[2024-08-06 17:27:13,903] C02G869CMD6M/INFO/locust.main: writing html report to file: ./reports/testreport.html
+[2024-08-06 17:27:13,908] C02G869CMD6M/INFO/locust.main: Shutting down (exit code 1)
+[2024-08-07 16:28:59,247] C02G869CMD6M/INFO/locust.main: Run time limit set to 30 seconds
+[2024-08-07 16:28:59,248] C02G869CMD6M/INFO/locust.main: Starting Locust 2.31.2
+[2024-08-07 16:28:59,250] C02G869CMD6M/INFO/locust.runners: Ramping to 10 users at a rate of 2.00 per second
+[2024-08-07 16:29:03,258] C02G869CMD6M/INFO/locust.runners: All users spawned: {"MyTestRunner": 10} (10 total users)
+[2024-08-07 16:29:24,190] C02G869CMD6M/INFO/locust.main: --run-time limit reached, shutting down
+[2024-08-07 16:29:24,347] C02G869CMD6M/INFO/locust.main: writing html report to file: ./reports/testreport.html
+[2024-08-07 16:29:24,351] C02G869CMD6M/INFO/locust.main: Shutting down (exit code 0)
+[2024-08-07 16:49:36,857] C02G869CMD6M/INFO/locust.main: Run time limit set to 30 seconds
+[2024-08-07 16:49:36,858] C02G869CMD6M/INFO/locust.main: Starting Locust 2.31.2
+[2024-08-07 16:49:36,860] C02G869CMD6M/INFO/locust.runners: Ramping to 10 users at a rate of 2.00 per second
+[2024-08-07 16:49:40,866] C02G869CMD6M/INFO/locust.runners: All users spawned: {"MyTestRunner": 10} (10 total users)
+[2024-08-07 16:50:05,187] C02G869CMD6M/INFO/locust.main: --run-time limit reached, shutting down
+[2024-08-07 16:50:05,330] C02G869CMD6M/INFO/locust.main: writing html report to file: ./reports/testreport.html
+[2024-08-07 16:50:05,333] C02G869CMD6M/INFO/locust.main: Shutting down (exit code 0)
+[2024-08-07 16:58:52,392] C02G869CMD6M/INFO/locust.main: Run time limit set to 30 seconds
+[2024-08-07 16:58:52,392] C02G869CMD6M/INFO/locust.main: Starting Locust 2.31.2
+[2024-08-07 16:58:52,394] C02G869CMD6M/INFO/locust.runners: Ramping to 10 users at a rate of 2.00 per second
+[2024-08-07 16:58:54,876] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:58:55,279] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:58:55,565] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:58:56,128] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:58:56,405] C02G869CMD6M/INFO/locust.runners: All users spawned: {"MyTestRunner": 10} (10 total users)
+[2024-08-07 16:58:56,572] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:58:57,763] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:58:57,812] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:58:57,898] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:58:57,926] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:58:57,943] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:00,010] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:00,393] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:01,310] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:02,491] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:02,603] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:02,816] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:03,036] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:03,692] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:04,827] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:05,803] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:06,287] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:07,129] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:07,776] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:07,940] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:08,184] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:08,621] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:09,277] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:09,487] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:10,540] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:11,083] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:12,118] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:13,179] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:13,600] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:13,832] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:14,056] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:15,880] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:16,117] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:16,202] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:16,454] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:16,633] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:16,688] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:18,411] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:19,051] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:19,836] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:19,941] C02G869CMD6M/ERROR/locust.user.task: 'job'
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 340, in run
+    self.execute_next_task()
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+  File "/usr/local/lib/python3.11/site-packages/locust/user/task.py", line 385, in execute_task
+    task(self)
+  File "/Users/ayon.choudhury/Desktop/Ayon_Self_Learning/Locust_Test_Framework/api_test_sequential.py", line 39, in post_users
+    "job": test_data['job']
+           ~~~~~~~~~^^^^^^^
+KeyError: 'job'
+
+[2024-08-07 16:59:20,663] C02G869CMD6M/INFO/locust.main: --run-time limit reached, shutting down
+[2024-08-07 16:59:20,819] C02G869CMD6M/INFO/locust.main: writing html report to file: ./reports/testreport.html
+[2024-08-07 16:59:20,823] C02G869CMD6M/INFO/locust.main: Shutting down (exit code 1)
+[2024-08-07 17:01:22,137] C02G869CMD6M/INFO/locust.main: Run time limit set to 30 seconds
+[2024-08-07 17:01:22,138] C02G869CMD6M/INFO/locust.main: Starting Locust 2.31.2
+[2024-08-07 17:01:22,140] C02G869CMD6M/INFO/locust.runners: Ramping to 10 users at a rate of 2.00 per second
+[2024-08-07 17:01:26,153] C02G869CMD6M/INFO/locust.runners: All users spawned: {"MyTestRunner": 10} (10 total users)
+[2024-08-07 17:01:51,738] C02G869CMD6M/INFO/locust.main: --run-time limit reached, shutting down
+[2024-08-07 17:01:51,897] C02G869CMD6M/INFO/locust.main: writing html report to file: ./reports/testreport.html
+[2024-08-07 17:01:51,900] C02G869CMD6M/INFO/locust.main: Shutting down (exit code 0)
